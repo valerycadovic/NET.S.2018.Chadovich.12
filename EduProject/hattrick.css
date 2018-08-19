@@ -1,0 +1,31 @@
+﻿.body {
+    background-color: teal
+}
+
+.box {
+    padding: 0.1%;
+}
+
+.Column1 {
+    background-color: aqua;
+    width: 33%;
+    float: left;
+}
+
+.Column2 {
+    background-color: aquamarine;
+    width: 33%;
+    float: left;
+}
+
+.Column3 {
+    background-color: aliceblue;
+    width: 33%;
+    float: left;
+}
+
+.box::after {
+    content: "Text after table";
+    padding: 5%;
+    clear: both;
+}
