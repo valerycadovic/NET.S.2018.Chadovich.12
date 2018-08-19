@@ -26,6 +26,6 @@
 
 .box::after {
     content: "Text after table";
-    padding: 5%;
+    margin: 30%;
     clear: both;
 }
